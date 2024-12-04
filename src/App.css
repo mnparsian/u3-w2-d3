@@ -1,0 +1,31 @@
+.movie-poster {
+    height: 350px; 
+    width: 100%; 
+    object-fit: cover; 
+  }
+  
+
+  .margin-left-md {
+    margin-left: 0; 
+  }
+  @media (min-width: 992px) {
+    .margin-left-md {
+      margin-left: 150px; 
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .margin-left-md {
+      margin-left: 175px; 
+    }
+  }
+  
+  @media (min-width: 1401px) {
+    .margin-left-md {
+      margin-left: 206px; 
+    }
+  }
+
+  .color{
+    background-color: #211F1F !important;
+  }
